@@ -1,0 +1,60 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.clearfix:after {
+  display: table;
+  content: "";
+  clear: both;
+}
+
+.container {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.center-div {
+  margin: auto 0;
+}
+
+header {
+  height: 100px;
+}
+
+.lh-header {
+  line-height: 100px;
+}
+
+#grid {
+  background-color: red;
+  height: 600px;
+  width: 600px;
+  margin: 100px auto;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+#grid .easylvl {
+  height: 10%;
+  width: 10%;
+  border: 1px solid white;
+  cursor: pointer;
+}
+#grid .mediumlvl {
+  height: calc(100% / 9);
+  width: calc(100% / 9);
+  border: 1px solid white;
+  cursor: pointer;
+}
+#grid .hardlvl {
+  height: calc(100% / 7);
+  width: calc(100% / 7);
+  border: 1px solid white;
+  cursor: pointer;
+}
+#grid .lightblue {
+  background-color: lightblue;
+}
